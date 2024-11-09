@@ -1,0 +1,29 @@
+24-11-10 01:00:38 [main] INFO  com.logging.LoggingApplication - Starting LoggingApplication using Java 19.0.1 with PID 28940 (C:\Users\moham\Desktop\Springboot-topics\logging\target\classes started by fahad in C:\Users\moham\Desktop\Springboot-topics\logging)
+24-11-10 01:00:38 [main] INFO  com.logging.LoggingApplication - No active profile set, falling back to 1 default profile: "default"
+24-11-10 01:00:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+24-11-10 01:00:39 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 65 ms. Found 1 JPA repository interface.
+24-11-10 01:00:39 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9090 (http)
+24-11-10 01:00:39 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+24-11-10 01:00:39 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+24-11-10 01:00:39 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.31]
+24-11-10 01:00:40 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+24-11-10 01:00:40 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1808 ms
+24-11-10 01:00:40 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+24-11-10 01:00:40 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 6.5.3.Final
+24-11-10 01:00:40 [main] INFO  o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+24-11-10 01:00:40 [main] INFO  o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+24-11-10 01:00:40 [main] INFO  com.zaxxer.hikari.HikariDataSource - springjdbc - Starting...
+24-11-10 01:00:41 [main] INFO  com.zaxxer.hikari.pool.HikariPool - springjdbc - Added connection com.mysql.cj.jdbc.ConnectionImpl@53ba7997
+24-11-10 01:00:41 [main] INFO  com.zaxxer.hikari.HikariDataSource - springjdbc - Start completed.
+24-11-10 01:00:41 [main] WARN  org.hibernate.dialect.Dialect - HHH000511: The 5.5.16 version for [org.hibernate.dialect.MySQLDialect] is no longer supported, hence certain features may not work properly. The minimum supported version is 8.0.0. Check the community dialects project for available legacy versions.
+24-11-10 01:00:42 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+24-11-10 01:00:42 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+24-11-10 01:00:42 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+24-11-10 01:00:43 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+24-11-10 01:00:43 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9090 (http) with context path '/'
+24-11-10 01:00:43 [main] INFO  com.logging.LoggingApplication - Started LoggingApplication in 5.851 seconds (process running for 6.933)
+24-11-10 01:00:52 [http-nio-9090-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+24-11-10 01:00:52 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+24-11-10 01:00:52 [http-nio-9090-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+24-11-10 01:00:52 [http-nio-9090-exec-1] INFO  c.l.controller.EmployeeController - Received request to fetch employee with ID: 1
+24-11-10 01:00:52 [http-nio-9090-exec-1] INFO  com.logging.service.EmployeeService - Fetching employee with ID: 1
