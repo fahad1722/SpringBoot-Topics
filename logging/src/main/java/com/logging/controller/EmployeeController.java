@@ -33,7 +33,7 @@ public class EmployeeController {
 
 	@GetMapping("/{id}")
 	public Employee getEmployee(@PathVariable Long id) {
-		log.info("Received request to fetch employee with ID: {}", id);
+		log.info("Received request to fetch employee with ID:   {}", id);
 		return employeeService.getEmployeeById(id);
 	}
 
